@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "u+89148akIh6GfXcDDhOXbhV4XIU9fNnbGvGV7XrbqcG8d2PT1QwcQVQGUvMoUCVwHcQDhzzDdbu/0yO5Y+KrA==",
+  "success": true,
+  "projectFilePath": "/Users/lucas/Documents/MyScripts/GoblinFight/Goblin Fight/Goblin Fight.csproj",
+  "expectedPackageFiles": [
+    "/Users/lucas/.nuget/packages/monogame.content.builder.task/3.8.1.303/monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+    "/Users/lucas/.nuget/packages/monogame.framework.desktopgl/3.8.1.303/monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,6 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"/Users/lucas/Documents/MyScripts/GoblinFight/Goblin Fight/Content/ball.png","/Users/lucas/Documents/MyScripts/GoblinFight/Goblin Fight/Content/bin/DesktopGL/Content/ball.xnb","TextureProcessor","Texture2DContent",8368,16469,0.225895
+"/Users/lucas/Documents/MyScripts/GoblinFight/Goblin Fight/Content/deathFont.spritefont","/Users/lucas/Documents/MyScripts/GoblinFight/Goblin Fight/Content/bin/DesktopGL/Content/deathFont.xnb","FontDescriptionProcessor","SpriteFontContent",2074,529439,0.09763
+"/Users/lucas/Documents/MyScripts/GoblinFight/Goblin Fight/Content/square.png","/Users/lucas/Documents/MyScripts/GoblinFight/Goblin Fight/Content/bin/DesktopGL/Content/square.xnb","TextureProcessor","Texture2DContent",597,16469,0.002678
+"/Users/lucas/Documents/MyScripts/GoblinFight/Goblin Fight/Content/statsFont.spritefont","/Users/lucas/Documents/MyScripts/GoblinFight/Goblin Fight/Content/bin/DesktopGL/Content/statsFont.xnb","FontDescriptionProcessor","SpriteFontContent",2073,70687,0.006872
+"/Users/lucas/Documents/MyScripts/GoblinFight/Goblin Fight/Content/sword.png","/Users/lucas/Documents/MyScripts/GoblinFight/Goblin Fight/Content/bin/DesktopGL/Content/sword.xnb","TextureProcessor","Texture2DContent",1941,4181,0.049525
