@@ -1,7 +1,10 @@
 using System;
+using System.Runtime.CompilerServices;
+using System.Security.Cryptography;
 using Goblin_Fight;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using Utils;
 public class Goblin{
     // Goblin Texture
     public static Texture2D texture;
@@ -23,10 +26,13 @@ public class Goblin{
 
     // constuctor
     public Goblin(){
-        int x = new Random().Next(0, GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width + 1);
-        int y = new Random().Next(0, GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height + 1); 
+        Random r = new Random();
+        Rectangle candidateSpawnRegion = Calculations.calcAllowedSpawnRegion()[r.Next(0,4)];
+        Vector2 spawnPoint = candidateSpawnRegion.Location.ToVector2(); 
+        int xVal = r.Next(0, candidateSpawnRegion.Width); 
+        int yVal = r.Next(0, candidateSpawnRegion.Height); 
 
-        position = new Vector2(x,y);
+        position = new Vector2(spawnPoint.X + xVal, spawnPoint.Y + yVal);
     }
 
 

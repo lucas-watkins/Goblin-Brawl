@@ -21,7 +21,6 @@
 /Users/lucas/Documents/MyScripts/GoblinFight/Goblin Fight/obj/Debug/net8.0/Goblin Fight.AssemblyInfoInputs.cache
 /Users/lucas/Documents/MyScripts/GoblinFight/Goblin Fight/obj/Debug/net8.0/Goblin Fight.AssemblyInfo.cs
 /Users/lucas/Documents/MyScripts/GoblinFight/Goblin Fight/obj/Debug/net8.0/Goblin Fight.csproj.CoreCompileInputs.cache
-/Users/lucas/Documents/MyScripts/GoblinFight/Goblin Fight/obj/Debug/net8.0/Goblin Fight.csproj.CopyComplete
 /Users/lucas/Documents/MyScripts/GoblinFight/Goblin Fight/obj/Debug/net8.0/Goblin Fight.dll
 /Users/lucas/Documents/MyScripts/GoblinFight/Goblin Fight/obj/Debug/net8.0/refint/Goblin Fight.dll
 /Users/lucas/Documents/MyScripts/GoblinFight/Goblin Fight/obj/Debug/net8.0/Goblin Fight.pdb
@@ -30,3 +29,5 @@
 /Users/lucas/Documents/MyScripts/GoblinFight/Goblin Fight/bin/Debug/net8.0/Content/deathFont.xnb
 /Users/lucas/Documents/MyScripts/GoblinFight/Goblin Fight/bin/Debug/net8.0/Content/statsFont.xnb
 /Users/lucas/Documents/MyScripts/GoblinFight/Goblin Fight/bin/Debug/net8.0/Content/sword.xnb
+/Users/lucas/Documents/MyScripts/GoblinFight/Goblin Fight/obj/Debug/net8.0/Goblin Fight.sourcelink.json
+/Users/lucas/Documents/MyScripts/GoblinFight/Goblin Fight/obj/Debug/net8.0/Goblin F.096CBF19.Up2Date

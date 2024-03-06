@@ -68,7 +68,7 @@ class Player{
             
             // if mouse is hovering over goblin set cursor to be sword and if within player reach
             foreach(Goblin g in Game1.goblins){
-                if(g.rect.Contains(mstate.Position) && calcDistance(position, g.position) <= reach){
+                if(g.rect.Contains(mstate.Position) && Utils.Calculations.calcDistance(position, g.position) <= reach){
                     Mouse.SetCursor(MouseCursor.FromTexture2D(swordTex,0, 0));
                     break;
                 }
@@ -83,7 +83,8 @@ class Player{
             // Handle Mouse and if click on goblin, damage goblin
             if (mstate.LeftButton == ButtonState.Pressed){
                 foreach (Goblin g in Game1.goblins){
-                    if(g.rect.Contains(new Point(mstate.X, mstate.Y)) && calcDistance(g.position, position) <= reach){
+                    if(g.rect.Contains(new Point(mstate.X, mstate.Y)) && 
+                    Utils.Calculations.calcDistance(g.position, position) <= reach){
                         if (canAttack){
                         canAttack = !canAttack;
                         g.health -= 25;
@@ -140,8 +141,4 @@ class Player{
         canTakeDamage = !canTakeDamage;
     }
 
-    // calculate distance to make reach distance for player
-    private static double calcDistance(Vector2 p1, Vector2 p2){
-        return Math.Sqrt((Math.Pow((p2.X-p1.X),2))+(Math.Pow((p2.Y-p1.Y),2)));
-    }
 }
